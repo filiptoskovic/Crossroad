@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9F146651-57DA-4EB7-A34B-AD61DD5DACA4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CrossRoad.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="UnitTesting\TrafficLightTest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CrossRoad">
+        <MSBuild Projects="CrossRoad.dproj"/>
+    </Target>
+    <Target Name="CrossRoad:Clean">
+        <MSBuild Projects="CrossRoad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CrossRoad:Make">
+        <MSBuild Projects="CrossRoad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TrafficLightTest">
+        <MSBuild Projects="UnitTesting\TrafficLightTest.dproj"/>
+    </Target>
+    <Target Name="TrafficLightTest:Clean">
+        <MSBuild Projects="UnitTesting\TrafficLightTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TrafficLightTest:Make">
+        <MSBuild Projects="UnitTesting\TrafficLightTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CrossRoad;TrafficLightTest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CrossRoad:Clean;TrafficLightTest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CrossRoad:Make;TrafficLightTest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="as701tcof3i_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::x9t13luvo1o_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,128,151" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:IBehaverable.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:IBehaverable.IBehaver" />
+    </reference>
+    <reference referencedUin="design:view:::880lcs3at9t_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="157,1,125,181" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:Behaverable.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:Behaverable.TNormal" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:Behaverable.TBully" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:Behaverable.TSlow" />
+    </reference>
+    <reference referencedUin="design:view:::x752xnaajvp_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="38,180,112,134" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:MainLogic.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::9jgf2sn6dxn5l5dp_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="301,1,156,134" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uRadianToDegree.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::2yojjhmq2wo_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="320,154,117,134" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:CrossRoad.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::5hx0ycyxfxxs10pm_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="840,80,116,166" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uIObserver.IObserveable" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uIObserver.IObserver" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uIObserver.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::imhgqcjwix1jo93n_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="40,580,143,151" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uControler.TTrafficLightControler" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uControler.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::1axax0unlxskp2vt_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="495,1,156,151" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uClassObservable.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uClassObservable.TObseveable" />
+    </reference>
+    <reference referencedUin="design:view:::bhwwhpssqxq01zkt_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="42,333,127,228" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uRoad.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uRoad.TVehicle" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uRoad.TLightState" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uRoad.TRoad" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uRoad.TTrafficLight" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uRoad.TRoadDirection" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uRoad.TVehicleGenerator" />
+    </reference>
+    <reference referencedUin="design:view:::7timi3dbwx1evnoh_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,240,144,289" />
+      <property name="location_set_by_user" value="True" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uClassObserver.TObserver" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uClassObserver.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::ovqaw0fv0y360jlh_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="840,320,124,151" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uCrossRoad.TCrossRoad" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:uCrossRoad.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::87a0u1he5y3q1rar_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="840,520,100,117" />
+      <property name="hideClass" value="True" />
+      <property name="hideModule" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:Main.TForm1" />
+      <reference referencedUin="delphi:e_class:src:CrossRoad:Main.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

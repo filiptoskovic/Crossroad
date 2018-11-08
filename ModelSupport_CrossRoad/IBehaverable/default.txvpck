@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="x9t13luvo1o_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:CrossRoad:IBehaverable.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:CrossRoad:IBehaverable.IBehaver">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,109,81" />
+      <reference referencedUin="delphi:e_method:src:CrossRoad:IBehaverable.IBehaver.Behave()" />
+    </reference>
+  </view>
+</nodeSet>
